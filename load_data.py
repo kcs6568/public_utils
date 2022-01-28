@@ -2,7 +2,6 @@ import torch.utils.data
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 from utils.data_aug import ColorAugmentation
-import os
 from dataset.coco import COCODetectionDataset
 
 def return_sampler(train_dset, test_dset, world_size, rank):

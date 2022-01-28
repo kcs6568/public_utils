@@ -1,5 +1,4 @@
 import torch
-import os
 
 
 def load_and_fix_checkpoint(args, model, opt):

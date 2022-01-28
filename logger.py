@@ -2,7 +2,6 @@ import os
 import json
 import logging
 import torch.distributed as dist
-import numpy as np
 
 def get_root_logger(log_dir, case=None):
     handlers = []

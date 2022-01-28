@@ -1,7 +1,6 @@
 import torch
 from torch.autograd.variable import Variable
 import numpy as np
-import os
 
 
 USE_GPU = torch.cuda.is_available()

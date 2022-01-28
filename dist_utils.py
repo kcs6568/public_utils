@@ -1,6 +1,5 @@
 import numpy as np
 import random
-import os
 import torch
 import torch.distributed as dist
 
